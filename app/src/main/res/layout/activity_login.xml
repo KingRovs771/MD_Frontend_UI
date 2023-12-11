@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="287dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logogrowumkm1" />
+
+    <TextView
+        android:id="@+id/title1_signup_page"
+        android:layout_width="301dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/img_login"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="85dp"
+        android:text="@string/title1_login_page" />
+    <TextView
+        android:id="@+id/title2_signup_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/title2_signup_page"
+        android:layout_below="@id/title1_signup_page"
+        android:layout_marginLeft="24dp"/>
+
+    <TextView
+        android:id="@+id/emailpagelogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title2_signup_page"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/email"/>
+
+    <LinearLayout
+        android:id="@+id/emailshapelogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/emailpagelogin"
+        android:padding="7dp">
+
+        <EditText
+            android:layout_width="337dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Masukkan Email"
+            android:paddingLeft="15dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/grey2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/passwordpagelogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailshapelogin"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/password"/>
+
+    <LinearLayout
+        android:id="@+id/Passwordshapelogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/passwordpagelogin"
+        android:padding="7dp">
+
+        <EditText
+            android:layout_width="337dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Masukkan Password"
+            app:endIconMode="password_toggle"
+            android:paddingLeft="15dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/grey2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title3_signup_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Passwordshapelogin"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="57dp"
+        android:text="@string/title3_login_page" />
+
+    <Button
+        android:id="@+id/buttonRegist"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_below="@id/title3_signup_page"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/grey"
+        android:text="Daftar" />
+
+    <Button
+        android:id="@+id/buttonMasuk"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:backgroundTint="@color/yello"
+        android:text="Masuk" />
+
+
+</RelativeLayout>
