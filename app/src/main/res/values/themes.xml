@@ -3,6 +3,9 @@
     <style name="Base.Theme.GrowUMKM" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/yello</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
     </style>
 
     <style name="Theme.GrowUMKM" parent="Base.Theme.GrowUMKM" />

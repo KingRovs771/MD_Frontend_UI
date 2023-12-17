@@ -17,5 +17,17 @@
     <string name="title_home">Home</string>
     <string name="title_portfolio">Portfolio</string>
     <string name="title_profile">Profile</string>
+    <string name="search_investor">Search Investor\n</string>
+    <string name="message_detail_item">message</string>
+    <string name="investor_detail">Investor</string>
+    <string name="terkumpul_detail">Terkumpul</string>
+    <string name="sisa_hari_detail">Sisa Hari</string>
+    <string name="deviden_detail">Deviden/Bulan</string>
+
+
+
+    <string name="desc_detail">Deskripsi</string>
+    <string name="doc_detail">Dokumen</string>
+    <string name="rating_detail">Rating</string>
 
 </resources>
