@@ -30,5 +30,11 @@
     <string name="rating_detail">Rating</string>
     <string name="invest_title">Berapa banya yang ingin kamu\n investasikan hari ini</string>
     <string name="nominal_investasi">Nominal Investasi</string>
+    <string name="dummy_number_porto">Rp. 0000.000.000</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_umkm">Serambi Notsuman Yogyakarta</string>
+    <string name="dummy_comment">Umkm ini sangat rekomendasi karena membagikan deviden yang sesuai dan tepat waktu</string>
+
 
 </resources>

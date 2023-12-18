@@ -60,4 +60,10 @@ dependencies {
     implementation( "androidx.viewpager2:viewpager2:1.0.0")
     //glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
+
+    //roundedImage
+    implementation("com.makeramen:roundedimageview:2.3.0")
+
+    //circle image
+    implementation("de.hdodenhof:circleimageview:3.1.0")
 }
