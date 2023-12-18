@@ -6,20 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".dashboard.ui.detail.DetailActivity">
 
-
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/toolbar_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
         <androidx.appcompat.widget.Toolbar
+            android:backgroundTintMode="screen"
+            android:outlineSpotShadowColor="@color/black"
             android:id="@+id/toolbar_detail_holder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:menu="@menu/detail_menu"
-            app:title="Detail UMKM" />
+            app:menu="@menu/detail_menu">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_back_detail"
+                android:src="@drawable/ic_back"/>
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_gravity="center"
+                android:text="Serambi Notosuman"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+        </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.cardview.widget.CardView
@@ -80,7 +94,9 @@
         android:layout_marginEnd="76dp"
         android:src="@drawable/ic_calculator_inv"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_name_umkm" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_name_umkm"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
 
 
     <ImageView
@@ -93,7 +109,9 @@
         android:src="@drawable/ic_favorite_border"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_calculate"
-        app:layout_constraintTop_toBottomOf="@+id/tv_name_umkm" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_name_umkm"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
 
     <androidx.cardview.widget.CardView
         android:layout_width="120dp"
@@ -262,6 +280,7 @@
             app:tabIndicator="@drawable/tab_indicator"
             app:tabIndicatorAnimationMode="elastic"
             app:tabIndicatorGravity="stretch"
+            app:tabIndicatorFullWidth="true"
             app:tabTextColor="@color/black"
 
             app:tabMode="fixed" />

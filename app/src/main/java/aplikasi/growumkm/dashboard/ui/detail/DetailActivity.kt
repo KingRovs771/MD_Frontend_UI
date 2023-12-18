@@ -1,5 +1,6 @@
 package aplikasi.growumkm.dashboard.ui.detail
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -19,6 +20,9 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val actionBar = binding.toolbarDetailHolder
+        val buttonBack = binding.btnBackDetail
+        val buttonInvest = binding.fabInvest
         val detailSectionPagerAdapter = DetailSectionPagerAdapter(this)
         val viewPager : ViewPager2 = binding.detailViewPager
         viewPager.adapter = detailSectionPagerAdapter
@@ -30,7 +34,7 @@ class DetailActivity : AppCompatActivity() {
         }.attach()
 
 
-        binding.toolbarDetailHolder.setOnMenuItemClickListener {
+        actionBar.setOnMenuItemClickListener {
             when(it.itemId){
                 R.id.message_menu_detail -> {
                     Toast.makeText(this, "Saya adalah menu chat", Toast.LENGTH_SHORT).show()
@@ -40,10 +44,14 @@ class DetailActivity : AppCompatActivity() {
                 else -> false
             }
         }
+        buttonBack.setOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
 
+        buttonInvest.setOnClickListener {
+            startActivity(Intent(this,InvestActivity::class.java))
+        }
     }
-
-
 
     companion object{
         @StringRes

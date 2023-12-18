@@ -25,9 +25,10 @@
     <string name="deviden_detail">Deviden/Bulan</string>
 
 
-
     <string name="desc_detail">Deskripsi</string>
     <string name="doc_detail">Dokumen</string>
     <string name="rating_detail">Rating</string>
+    <string name="invest_title">Berapa banya yang ingin kamu\n investasikan hari ini</string>
+    <string name="nominal_investasi">Nominal Investasi</string>
 
 </resources>
