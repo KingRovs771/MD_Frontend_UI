@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dm_sans_1"
                 android:layout_gravity="center"
-                android:text="Laporan" />
+                android:text="Video" />
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"

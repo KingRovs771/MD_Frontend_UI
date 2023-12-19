@@ -51,6 +51,17 @@ class DetailActivity : AppCompatActivity() {
         buttonInvest.setOnClickListener {
             startActivity(Intent(this,InvestActivity::class.java))
         }
+
+
+    }
+
+
+    private fun setAddToFavorite(isFavorite : Boolean){
+        if(isFavorite){
+            binding.btnAddToFavorite.setImageResource(R.drawable.ic_favorite)
+        }else{
+            binding.btnAddToFavorite.setImageResource(R.drawable.ic_favorite_border)
+        }
     }
 
     companion object{

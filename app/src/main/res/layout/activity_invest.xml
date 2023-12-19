@@ -67,22 +67,17 @@
                 android:text="berapa banyak ?"
                 android:paddingTop="20dp"
                 android:paddingStart="20dp"/>
-            
-            <com.google.android.material.textfield.TextInputLayout
-                android:layout_marginTop="50dp"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
+
+            <TextView
+                android:id="@+id/tv_invest_nominal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/ed_input_angka"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/nominal_investasi"
-                    android:inputType="number"/>
-
-            </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:textColor="@color/item_detail_color"
+                android:textSize="30dp"
+                android:fontFamily="@font/dm_sans_1"
+                android:text="Rp. 0" />
         </androidx.cardview.widget.CardView>
 
 
@@ -218,7 +213,8 @@
             android:layout_marginEnd="30dp"
             android:text="Invest"
             android:backgroundTint="@color/white"
-            android:layout_marginTop="600dp"/>
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="bottom"/>
 
     </FrameLayout>
 
