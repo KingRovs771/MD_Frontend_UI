@@ -8,6 +8,7 @@
 
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/holder_home_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -23,38 +24,45 @@
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar_home"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
- />
-    </androidx.appcompat.widget.Toolbar>
+            android:layout_height="wrap_content" />
 
+    </androidx.appcompat.widget.Toolbar>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        app:layout_constraintTop_toBottomOf="@+id/holder_home_toolbar"
+        app:layout_constraintStart_toStartOf="parent"/>
     <com.google.android.material.search.SearchBar
         android:id="@+id/search_bar_home"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="100dp"
+
         android:hint="@string/search_investor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/holder_home_toolbar">
     </com.google.android.material.search.SearchBar>
+
     <com.google.android.material.search.SearchView
         android:id="@+id/search_view_home"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:hint="@string/search_investor"
         app:layout_anchor="@id/search_bar_home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </com.google.android.material.search.SearchView>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></com.google.android.material.search.SearchView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="140dp"
         android:id="@+id/recyle_view_home" />
 
 
