@@ -147,7 +147,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/dm_sans_1"
                 android:textColor="@color/item_detail_color"
-                android:text="Rp. 1000.000" />
+                android:text="@string/number_show" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -181,7 +181,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/dm_sans_1"
                 android:textColor="@color/item_detail_color"
-                android:text="Rp. 1000.000" />
+                android:text="@string/number_show" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

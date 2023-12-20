@@ -84,7 +84,7 @@
                 android:textColor="@color/item_detail_color"
                 android:textSize="30dp"
                 android:fontFamily="@font/dm_sans_1"
-                android:text="Rp. 0" />
+                android:text="@string/number_show" />
         </androidx.cardview.widget.CardView>
 
 
