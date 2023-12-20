@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GrowUMKM"
         tools:targetApi="31">
+        <activity
+            android:name=".dashboard.ui.detail.VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.ui.detail.DocumentActivity"
+            android:exported="false" />
         <activity
             android:name=".dashboard.ui.profile.AboutUs"
             android:exported="false" />
@@ -33,17 +39,21 @@
         <activity
             android:name=".dashboard.ui.detail.InvestActivity"
             android:exported="false" />
+
         <activity
             android:name=".dashboard.ui.detail.DetailActivity"
-            android:exported="true" />
-        <activity
-            android:name=".login.SplashScreenActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".login.SplashScreenActivity"
+            android:exported="true">
+
         </activity>
         <activity
             android:name=".login.RegisterActivity"
@@ -54,9 +64,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:windowSoftInputMode="adjustPan">
-
-        </activity>
+            android:windowSoftInputMode="adjustPan" />
     </application>
 
 </manifest>
