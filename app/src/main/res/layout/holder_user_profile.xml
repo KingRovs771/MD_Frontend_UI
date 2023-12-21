@@ -8,7 +8,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/back_dialog_profile"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

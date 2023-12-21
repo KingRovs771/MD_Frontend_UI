@@ -10,6 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.Window
 import android.widget.ImageView
+import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import aplikasi.growumkm.R
 import aplikasi.growumkm.databinding.FragmentProfileBinding
@@ -61,9 +62,15 @@ private var _binding: FragmentProfileBinding? = null
         dialog.setContentView(contentView)
         dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
-        val buttonBack : ImageView = dialog.findViewById(R.id.btn_back_profile_global)
+        val buttonBack : LinearLayout = dialog.findViewById(R.id.back_dialog_profile)
+        val buttonBack2 : ImageView = dialog.findViewById(R.id.btn_back_profile_global)
 
         buttonBack.setOnClickListener {
+            dialog.dismiss()
+        }
+        dialog.show()
+
+        buttonBack2.setOnClickListener {
             dialog.dismiss()
         }
         dialog.show()

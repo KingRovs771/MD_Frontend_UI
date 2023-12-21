@@ -1,16 +1,14 @@
-package aplikasi.growumkm.dashboard.ui.portfolio
+package aplikasi.growumkm.dashboard.ui.portfolio.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
-import android.widget.TextView
-import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import aplikasi.growumkm.R
+import aplikasi.growumkm.dashboard.ui.portfolio.handler.PortfolioViewModel
+import aplikasi.growumkm.dashboard.ui.portfolio.handler.PortofolioSectionPagerAdapter
 import aplikasi.growumkm.databinding.FragmentPortfolioBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -47,7 +45,7 @@ private var _binding: FragmentPortfolioBinding? = null
         }.attach()
 
         binding.btnPortoDeposit.setOnClickListener {
-            startActivity(Intent(requireContext(),DepositActivity::class.java))
+            startActivity(Intent(requireContext(), DepositActivity::class.java))
         }
 
 

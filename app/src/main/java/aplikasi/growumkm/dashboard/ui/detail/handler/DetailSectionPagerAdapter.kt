@@ -1,8 +1,11 @@
-package aplikasi.growumkm.dashboard.ui.detail
+package aplikasi.growumkm.dashboard.ui.detail.handler
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import aplikasi.growumkm.dashboard.ui.detail.DescriptionFragment
+import aplikasi.growumkm.dashboard.ui.detail.DocumentFragment
+import aplikasi.growumkm.dashboard.ui.detail.RatingFragment
 
 class DetailSectionPagerAdapter(activity : AppCompatActivity): FragmentStateAdapter(activity) {
     override fun getItemCount(): Int {

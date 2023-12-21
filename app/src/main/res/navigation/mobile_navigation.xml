@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_portfolio"
-        android:name="aplikasi.growumkm.dashboard.ui.portfolio.PortfolioFragment"
+        android:name="aplikasi.growumkm.dashboard.ui.portfolio.ui.PortfolioFragment"
         android:label="@string/title_portfolio"
         tools:layout="@layout/fragment_portfolio" />
 

@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dashboard.ui.detail.DescriptionFragment"
-    android:background="@color/food_cd_color">
+    tools:context=".dashboard.ui.detail.DescriptionFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

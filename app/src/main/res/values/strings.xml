@@ -8,7 +8,7 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="registerhint">Belum Punya akun?</string>
-    <string name="regist">Daftar</string>
+    <string name="regist">Belum punya akun?, daftar sekarang</string>
     <string name="login">Masuk</string>
     <string name="nama">Nama</string>
     <string name="nomertelefon">Nomer Telefon</string>
@@ -38,13 +38,18 @@
     <string name="dummy_comment">Umkm ini sangat rekomendasi karena membagikan deviden yang sesuai dan tepat waktu</string>
     <string name="dummy_date">23/11/2023 09.00</string>
     <string name="portofolio">Portofolio</string>
-    <string name="dummy_name">Arief Kurniawan Jaya Kusuma wardana</string>
-    <string name="dummy_email">ariefkun000@gmail.com</string>
+    <string name="dummy_name">Lorem Ipsum Dolor Sit Amet User Validate</string>
+    <string name="dummy_email">dummy@email.com</string>
     <string name="dummy_nomor">0888 9000 2000</string>
     <string name="dummy_city">Surakarta</string>
 
     <string name="term_policy">jadi ceritnaya disini nanti term policy nya</string>
     <string name="name_tim">M013BSY0076 – Yosi Ronadi \nM180BSX0917 – Quinolina Thifal \nM180BSX0283 – Emmanuella Aurelia Rachel Passa\nC481BSX3704 – Kharisma Vidya Prakusa \nC175BSY3143 – Rizky Budiarto \nA175BSY2969 – Arief Kurniawan\nA524BSY2375 - Mohammad Hollandri Sumari \n</string>
+    <string name="input_for_email">Input tidak sesuai</string>
+    <string name="password_warning">Minimal 8 Karakter\n</string>
+    <string name="title_login_page">Sudah siap berinvestasi dengan UMKM?</string>
+    <string name="message_login_page">Mulai Sekarang</string>
+    <string name="loading_asset">Memuat</string>
 
 
 </resources>

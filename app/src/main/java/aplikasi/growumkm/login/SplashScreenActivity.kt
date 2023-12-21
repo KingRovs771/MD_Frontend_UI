@@ -11,12 +11,15 @@ import android.os.Looper
 import android.view.Window
 import android.view.WindowManager
 import android.widget.ImageView
+import android.widget.LinearLayout
+import androidx.appcompat.app.AppCompatDelegate
 import aplikasi.growumkm.R
 import aplikasi.growumkm.util.isAppOnline
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         setContentView(R.layout.activity_splash_screen)
 
 
@@ -43,8 +46,13 @@ class SplashScreenActivity : AppCompatActivity() {
         dialog.setCancelable(false)
         dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
-        val buttonBack : ImageView = dialog.findViewById(R.id.btn_internet_back)
+        val buttonBack : LinearLayout = dialog.findViewById(R.id.layout_for_close)
+        val buttonBack2 : ImageView = dialog.findViewById(R.id.btn_internet_back)
         buttonBack.setOnClickListener {
+            this@SplashScreenActivity.recreate()
+            dialog.dismiss()
+        }
+        buttonBack2.setOnClickListener {
             this@SplashScreenActivity.recreate()
             dialog.dismiss()
         }

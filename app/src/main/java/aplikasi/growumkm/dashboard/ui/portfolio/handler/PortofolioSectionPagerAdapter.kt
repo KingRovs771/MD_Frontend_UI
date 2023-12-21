@@ -1,8 +1,10 @@
-package aplikasi.growumkm.dashboard.ui.portfolio
+package aplikasi.growumkm.dashboard.ui.portfolio.handler
 
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import aplikasi.growumkm.dashboard.ui.portfolio.ui.DividenFragment
+import aplikasi.growumkm.dashboard.ui.portfolio.ui.PortofolioItemFragment
+import aplikasi.growumkm.dashboard.ui.portfolio.ui.RiwayatFragment
 
 class PortofolioSectionPagerAdapter(activity : Fragment) : FragmentStateAdapter(activity) {
     override fun getItemCount(): Int {
