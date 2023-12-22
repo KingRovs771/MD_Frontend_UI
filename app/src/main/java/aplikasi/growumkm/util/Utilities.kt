@@ -65,6 +65,13 @@ fun checkRequireChar2(myEmailEditText: MyEmailEditText, myPasswordEditText: MyPa
     })
 }
 
+fun formatAngkaJuta(angka: Int): String {
+    return when {
+        angka >= 1000000 -> "${angka / 1000000}JT"
+        else -> angka.toString()
+    }
+}
+
 fun showLoadingCostum(owner : LifecycleOwner, context: Context, liveData: LiveData<Boolean>){
     val dialog = Dialog(context)
 
@@ -81,3 +88,5 @@ fun showLoadingCostum(owner : LifecycleOwner, context: Context, liveData: LiveDa
         }
     }
 }
+
+

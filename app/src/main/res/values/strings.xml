@@ -44,12 +44,59 @@
     <string name="dummy_city">Surakarta</string>
 
     <string name="term_policy">jadi ceritnaya disini nanti term policy nya</string>
-    <string name="name_tim">M013BSY0076 – Yosi Ronadi \nM180BSX0917 – Quinolina Thifal \nM180BSX0283 – Emmanuella Aurelia Rachel Passa\nC481BSX3704 – Kharisma Vidya Prakusa \nC175BSY3143 – Rizky Budiarto \nA175BSY2969 – Arief Kurniawan\nA524BSY2375 - Mohammad Hollandri Sumari \n</string>
+    <string name="name_tim">M013BSY0076 – Yosi Ronadi \nM180BSX0917 – Quinolina Thifal \nM180BSX0283 – Emmanuella Aurelia Rachel Passa\nC481BSX3704 – Kharisma Vidya Prakusa \nC175BSY3143 – Rizky Budiarto \nA175BSY2969 – Arief Kurniawan\nA524BSY2375 - Mohammad Hollandi Sumari \n</string>
     <string name="input_for_email">Input tidak sesuai</string>
     <string name="password_warning">Minimal 8 Karakter\n</string>
     <string name="title_login_page">Sudah siap berinvestasi dengan UMKM?</string>
     <string name="message_login_page">Mulai Sekarang</string>
     <string name="loading_asset">Memuat</string>
+    <string name="retry">Memuat</string>
+    <string name="not_availabel">anda sedang mencoba mengakses fitur pencarian maaf saat ini belum tersedia</string>
+
+    <string-array name="provinsi">
+        <item>Aceh</item>
+        <item>Sumatera Barat</item>
+        <item>Bali</item>
+        <item>Bangka Belitung</item>
+        <item>Banten</item>
+        <item>Bengkulu</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Utara</item>
+        <item>Jambi</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Kepulauan Riau</item>
+        <item>Lampung</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Papua</item>
+        <item>Papua Barat</item>
+        <item>Riau</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Utara</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Utara</item>
+        <item>Yogyakarta</item>
+    </string-array>
+    <string name="title_term_policy"> KEBIJAKAN </string>
+    <string name="point1"> Kebijakan Privasi:  </string>
+    <string name="point2"> Keamanan Data:  </string>
+    <string name="point3"> Tanggung Jawab Pengguna: </string>
+    <string name="point4"> Layanan dan Dukungan: </string>
+    <string name="isi1">Pengumpulan Informasi:\nPrivasi Pengguna: Aplikasi akan melindungi data pribadi pengguna dan hanya mengumpulkan informasi yang relevan dengan penggunaan aplikasi.\nPenggunaan Informasi:\nPenggunaan Data: Informasi yang dikumpulkan akan digunakan untuk keperluan fungsional aplikasi, peningkatan layanan, dan tidak akan dibagikan kepada pihak ketiga tanpa izin pengguna.</string>
+    <string name="isi2">Perlindungan Data:\nKeamanan Data: Aplikasi akan mengimplementasikan langkah-langkah keamanan yang sesuai untuk melindungi data pengguna dari akses yang tidak sah atau penyalahgunaan.\nEnkripsi dan Proteksi:\nEnkripsi: Data sensitif akan dienkripsi dan akan dilindungi dengan standar keamanan yang diperlukan untuk menghindari risiko kebocoran informasi.</string>
+    <string name="isi3">Penggunaan yang Bertanggung Jawab:\nPenggunaan yang Etis: Pengguna diminta untuk menggunakan aplikasi dengan bertanggung jawab, menghindari perilaku yang merugikan atau melanggar hukum.\nKonten yang Dapat Dibagikan:\nKonten yang Dapat Dibagikan: Pengguna harus memastikan bahwa konten yang dibagikan di dalam aplikasi tidak melanggar hak cipta atau hak privasi pihak lain.</string>
+    <string name="isi4">Pemeliharaan Aplikasi:\nPemeliharaan dan Pembaruan: Aplikasi akan menerima pembaruan dan perbaikan berkala untuk memastikan kinerja optimal dan keamanan.\nDukungan Pengguna:\nDukungan Pengguna: Aplikasi akan menyediakan saluran dukungan bagi pengguna yang membutuhkan bantuan atau memiliki pertanyaan seputar penggunaan aplikasi.</string>
 
 
 </resources>
